@@ -32,9 +32,9 @@ A short guide to help you get started quickly.
 
 Rename the folder as well as any references.
 
-`com.elgato.template.sdPlugin` with `my.domain.plugin-name.sdPlugin`
+`it.alessandrodorazio.myIp.sdPlugin` with `my.domain.plugin-name.sdPlugin`
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > When sym-linking the plugin, the folder name must end with `.sdPlugin`.
 
 ### Get the latest library
@@ -54,7 +54,7 @@ You can either clone the javascript library or add it as a submodule to your rep
 You can get started in app.js!
 
 ```javascript
-const myAction = new Action('com.elgato.template.action');
+const myAction = new Action('it.alessandrodorazio.myIp.action');
 
 /**
  * The first event fired when Stream Deck starts

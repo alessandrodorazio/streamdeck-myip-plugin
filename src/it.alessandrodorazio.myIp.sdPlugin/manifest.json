@@ -1,0 +1,37 @@
+{
+  "SDKVersion": 2,
+  "Author": "Alessandro D'Orazio",
+  "CodePath": "app.html",
+  "Description": "Simple plugin to display the IP address",
+  "Name": "My IP Address",
+  "Icon": "actions/template/assets/action",
+  "URL": "https://www.elgato.com/en/gaming/stream-deck",
+  "Version": "1.0.0",
+  "Software": {
+    "MinimumVersion": "5.0"
+  },
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Category": "Template Plugin",
+  "CategoryIcon": "actions/template/assets/actionimage",
+  "Actions": [
+    {
+      "Name": "Show IP Address",
+      "UUID": "it.alessandrodorazio.myIp.action",
+      "Icon": "actions/icon",
+      "States": [
+        {
+          "Image": "actions/key"
+        }
+      ]
+    }
+  ]
+}
